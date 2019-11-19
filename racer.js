@@ -14,7 +14,7 @@ $(document).ready(function () {
                 }
 
                 document.addEventListener('keypress', logKey);
-                console.log(logkey)
+                console.log(logKey)
 
                 function logKey(e) {
                     log.textContent += ` ${e.code}`;
