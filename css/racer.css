@@ -18,3 +18,7 @@
     position: relative;
     margin: 100px auto 0;
   }
+  #voiture{
+    position:absolute; top:200px; left:900px;
+  
+  }
