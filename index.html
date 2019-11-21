@@ -1,70 +1,27 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Racer game</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
-    <link rel="stylesheet" href="css/racer.css">
+  <meta charset="utf-8">
+  <title>jeu</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="racer.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/racer.css">
+    
+    
+    
+    
 </head>
+
 <body>
-    <figure>
-        <img src="carr2.png" alt="Bloc-Notes" id="voiture" />
-    </figure>
+  Collisions : <span id="info">0</span>
+  <div id="jeu">
+    <img id="fond1" class="fond" src="rte1.png">
+    <img id="fond2" class="fond" src="rte1.png">
+    <img id="vj" src="vj.png">
+    <img id="vr" src="vr.png">
+  </div>
+  
+  
 
-    <h1>Luka Course</h1>
-    <h2>Comment jouer ?</h2>
-    <p>blablablabla</p>
-
-    "Collisions : <span id="info">0</span>
-      <div id="jeu">
-        <img id="fond1" class="fond" src="rte1.png">
-        <img id="fond2" class="fond" src="rte2.png">
-        <img id="vj" src="vj.png"> <!-- La voiture jaune -->
-        <img id="vr" src="vr.png"> <!-- La voiture rouge -->
-      </div>
-      
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!--table class="racer_table">
-            <tr id="player1_strip">
-              <td class="active1"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr id="player2_strip">
-              <td class="active2"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
-    <div class="myDiv"></div>
-
-      <!-- Intégration JS -->
-      <script type="text/javascript" src="racer.js"></script>
 </body>
 </html>
