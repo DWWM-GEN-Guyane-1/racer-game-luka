@@ -22,3 +22,14 @@
   top: -200px; 
   left: 0px;
 }
+#instruction {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  text-shadow: -2px 0 black;
+}
